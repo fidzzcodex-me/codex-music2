@@ -1,0 +1,7 @@
+# Salin file ini menjadi `local.properties` (tanpa .example) lalu sesuaikan path.
+# File asli TIDAK di-commit karena berisi path spesifik mesin developer.
+
+sdk.dir=/path/to/Android/sdk
+flutter.sdk=/path/to/flutter
+flutter.versionName=1.0.0
+flutter.versionCode=1
