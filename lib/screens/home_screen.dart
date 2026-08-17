@@ -116,13 +116,13 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
               ],
             ),
           ),
-          Positioned(
+          const Positioned(
             left: 0,
             right: 0,
             bottom: 0,
             child: SafeArea(
               top: false,
-              child: const MiniPlayer(),
+              child: MiniPlayer(),
             ),
           ),
         ],
